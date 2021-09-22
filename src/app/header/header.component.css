@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .navbar-brand {
+    width: 0%;
+    height: 49px;
+    margin: 0px 3px;
+    padding: 0px 6px 43px;
+    font-family: Krona One;
+    font-size: 40px;
+
+    font-family: Krona One;
+  }
+  .navbar-collapse{
+    justify-content:flex-end;
+  }
+  #size {
+    font-size: 20px;
+  }
+
+  .img-fluid {
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .D {
+    color: orange;
+  }

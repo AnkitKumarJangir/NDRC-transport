@@ -1,0 +1,32 @@
+.jumbotron{
+    background-size: cover;
+    border-radius: 0%;
+    margin-bottom: unset;
+}
+    .container {
+        background: rgba(0,0,0,.3);
+        color: white;
+        margin-top: 100px;
+        padding: 20px;
+        border-radius: 2px;
+        box-shadow: 0px 0px 10px 3px dodgerblue;
+  
+      }
+      .hr1 {
+        height: 4px;
+        background: dodgerblue;
+        margin: unset;
+        width: 200px;
+      }
+      .footer-copyright{
+        color:white;
+        
+      }
+      input.ng-touched.ng-invalid{
+        border: 1px solid red;
+        box-shadow: 0 0 13px inset rgba(255,0,0,0.2);
+      }
+      textarea.ng-touched.ng-invalid{
+        border: 1px solid red;
+        box-shadow: 0 0 13px inset rgba(255,0,0,0.2);
+      }

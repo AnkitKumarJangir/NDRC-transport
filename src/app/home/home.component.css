@@ -1,0 +1,202 @@
+.img-fluid{
+  max-width: 100%;
+  margin-top: 4rem;
+  height: auto;
+}
+span {
+    color:orange;
+  }
+  .C{
+    color: coral;
+  }
+  .card-title {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .card-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+  }
+  .card
+  
+  .navbar {
+    background: #007bff;
+  
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  
+  }
+  a{
+    
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  
+  .people:hover {
+    color: white;
+  }
+  
+  .more {
+    margin: 71px 20px 24px 162px;
+    font-size: 30px;
+    font-family: 'Carter One';
+    width: 300px;
+    height: 60px;
+  }
+  
+  .more h4 {
+    font-size: 39px;
+  }
+  
+  hr {
+    height: 4px;
+    background:#007bff;
+    margin: auto;
+  }
+  
+  .container-md {
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Carter One';
+    width: 341px;
+    height: 251px;
+  
+  }
+  
+  .jumbotron {
+    background: white;
+    text-align: center;
+    justify-content: space-around;
+    padding: auto;
+  }
+  #row{
+    text-align: -webkit-center;      
+  }
+  #tcca{
+    color:coral;
+    font-size: 20px;
+  }
+  .row {
+    margin: auto;
+    padding: auto;
+    justify-content: space-between;
+  }
+  
+  .col-sm {
+  align-items: center;
+  padding: 0px 0px;
+  margin: auto;
+  
+  }
+  
+  .row1 {
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  .container-md p {
+    font-size: 20px;
+  }
+  
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-body:hover {
+    color: white;
+    cursor: pointer;
+    background: #007bff;
+  }
+  .card-text1 {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .col:hover {
+    opacity: 0.3;
+  }
+  .WP{
+    text-align: center;
+    padding: 33px;
+  }
+  
+  .page-footer {
+    background: #007bff;
+    color: white;
+  }
+  
+  .list-unstyled {
+    display: flex;
+    margin: -5px 0px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+  .fa {
+    padding: 8px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 3px;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 767px){
+    .row1 {
+      display: inline-block;
+      margin: auto;
+    }
+    .card-header{
+      font-size: 25px;
+    }
+    .card{
+      margin: 0px 0px;
+    }
+    #row{ 
+    justify-content: center;
+    }
+    .more {
+      margin:-44px -1px -14px 12%;
+    }
+  
+    .more h4 {
+      font-size: 25px;
+    }
+  
+    .more hr {
+      height: 4px;
+      background:#007bff;
+      width: 200px;
+      margin: 0px;
+    }
+  
+    .list-unstyled {
+      display: inline-flex;
+      margin: 0px 0px;
+    }
+  }

@@ -1,0 +1,35 @@
+
+    .jumbotron {
+        background-color: white;
+        border-radius: 0px;
+        margin-top: 46px;
+      }
+      
+    .D {
+        color: orange;
+      }
+  
+      .hr1 {
+        height: 4px;
+        background: dodgerblue;
+        margin: unset;
+        width: 142px;
+      }
+  
+      .hr2 {
+        height: 4px;
+        background: orange;
+        margin: auto;
+        width: 254px;
+      }
+  
+      .container-md {
+        display: inline-flex;
+      }
+  
+      @media only screen and(max-width: 767px) {
+        .container-md {
+          display: block;
+          margin: auto;
+        }
+      }

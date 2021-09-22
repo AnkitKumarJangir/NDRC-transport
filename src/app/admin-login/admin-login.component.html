@@ -1,0 +1,39 @@
+<div class="jumbotron" style="background-image: url(./../../assets/img/admin.jpg)">
+    <div class="container">
+        <div class="main_div">
+            <h4>
+                <div class="hading" style="text-align: center; color: floralwhite;">New <span class="D">Deep</span> Road Carrier</div>
+                <hr class="hr2">
+            </h4><br>
+            <div class="box">
+                <h1>Admin Login</h1>
+
+                <form [formGroup]='admForm' (ngSubmit)="onAdmSubmit()">
+                    <div class="inputBox">
+                        <input type="text" name="username" formControlName="username" autocomplete="off" required>
+                        <label>username</label>
+
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="password" formControlName="password" autocomplete="off" required>
+                        <label>password</label>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block"> Login
+                    </button>
+
+
+
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© All rights are reseverd
+
+    </div>
+    <div class="footer-copyright text-center py-3">© 2015 Copyright:NDRC Faridabad(Haryana)
+    
+    </div>
+</div>

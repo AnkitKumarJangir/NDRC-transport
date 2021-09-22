@@ -1,0 +1,79 @@
+<h4>
+    <div style="text-align: center; color: black;">New <span class="D">Deep</span> Road Carrier</div>
+    <hr class="hr2">
+</h4><br>
+<div class="text-center">
+    <h3 class="heading">Manage your Clients</h3>
+
+</div>
+
+<div class="container">
+    <h3 class="text-left">Contact Data</h3>
+    <div class="table-responsive">    
+        <table class="table table-bordered  thead-dark ">      
+            <thead class="thead-dark">      
+                <tr class="text-center text-uppercase">      
+                    
+                    <th>Name</th>      
+                    <th>Email</th>      
+                    <th>Massage</th>      
+                    <th>Action</th>      
+                  </tr>      
+            </thead>      
+            <tbody>      
+              <tr class="text-center" *ngFor="let item of Emp">      
+                       
+                <td>{{item.name}}</td>      
+                <td>{{item.email}}</td>      
+                <td>{{item.massage}}</td>                
+                <td>  
+                    <div class="btn-group">    
+                      <button type="button" class="btn btn-danger mr-1" (click)="onDeleteClient(item._id)" >Delete</button>  
+                    </div>  
+                  </td>  
+              </tr>      
+            </tbody>      
+          </table>      
+      </div>   
+</div>
+
+<div class="container"><br>
+    <h3 class="text-left">Enquiry Data</h3>
+    <div class="table-responsive">    
+        <table class="table table-bordered  thead-dark ">      
+            <thead class="thead-dark">      
+                <tr class="text-center text-uppercase">      
+                        
+                    <th>Name</th>      
+                    <th>Email</th>      
+                    <th>Height</th>
+                    <th>Width</th>      
+                    <th>Weight</th>
+                    <th>Freight</th>  
+                    <th>From</th> 
+                    <th>To</th>   
+                    <th>Action</th>            
+      </tr>      
+            </thead>      
+            <tbody>      
+              <tr class="text-center" *ngFor="let Enq of Enq">      
+                
+                <td>{{Enq.name}}</td>      
+                <td>{{Enq.email}}</td>      
+                <td>{{Enq.height}}</td>
+                <td>{{Enq.width}}</td>                
+                <td>{{Enq.weight}}</td>                
+                <td>{{Enq.freight}}</td>                
+                <td>{{Enq.from}}</td>                
+                <td>{{Enq.to}}</td>                
+                <td>  
+                    <div class="btn-group">    
+                      <button type="button" class="btn btn-danger mr-1" (click)="onDeleteEnquiry(Enq._id)">Delete</button>  
+                    </div>  
+                  </td>  
+                    
+              </tr>      
+            </tbody>     
+          </table>      
+      </div>   
+</div>
